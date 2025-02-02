@@ -8,9 +8,9 @@ const data = [
   { name: "Users", value: 60, color: "#FFCE56" },
   { name: "Restaurants", value: 40, color: "#4BC0C0" },
 ]
-
-const renderActiveShape = (props: any) => {
-  const { cx, cy, innerRadius, outerRadius, startAngle, endAngle, fill } = props
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+const renderActiveShape = (props:any) => {
+  const { cx, cy, innerRadius, outerRadius, endAngle, fill } = props
   return (
     <g>
       <path

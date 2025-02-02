@@ -701,7 +701,7 @@ export function MenuItemsTable() {
             <DialogHeader>
               <DialogTitle>Add New Menu Item</DialogTitle>
               <DialogDescription>
-                Enter the details of the new menu item here. Click save when you're done.
+                Enter the details of the new menu item here. Click save when you`re done.
               </DialogDescription>
             </DialogHeader>
             <div className="grid gap-4 py-4">

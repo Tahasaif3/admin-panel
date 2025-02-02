@@ -1,5 +1,4 @@
 import { ChefsTable } from "@/components/chefs-table"
-import { Button } from "@/components/ui/button"
 
 export default function ChefsPage() {
   return (
